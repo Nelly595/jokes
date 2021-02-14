@@ -2,4 +2,4 @@
 
 ### can I add a picture link, I think so 
 
-!((https://pixabay.com/images/id-2240764/)
+!![figure 12.jpg](https://pixabay.com/images/id-2240764){:class="img-responsive"} 
