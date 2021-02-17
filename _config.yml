@@ -2,6 +2,5 @@ title: [My Jokes]
 theme: jekyll-theme-cayman 
 author: <Nelly> 
 
- Layout
- Home: /
- Blog: /blog/
+ #header_pages:
+# - blog.md
