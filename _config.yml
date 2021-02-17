@@ -2,5 +2,4 @@ title: [My Jokes]
 theme: jekyll-theme-cayman 
 author: <Nelly> 
 
- #header_pages:
-# - blog.md
+baseurl: "/cayman-blog" 
