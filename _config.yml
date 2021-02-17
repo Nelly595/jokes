@@ -2,4 +2,4 @@ title: [My Jokes]
 theme: jekyll-theme-cayman 
 author: <Nelly> 
 
-baseurl: "/cayman-blog" 
+baseurl: "/cayman-blog" # Blog: /blog/
