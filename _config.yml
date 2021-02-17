@@ -2,4 +2,4 @@ title: [My Jokes]
 theme: jekyll-theme-cayman 
 author: <Nelly> 
 
-baseurl: "/Blog/blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+"/Blog/blog" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
