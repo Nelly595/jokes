@@ -3,6 +3,5 @@ theme: jekyll-theme-cayman
 author: <Nelly> 
 
 # Site navigation
-navigation_header:
   Home: /
   Blog: /blog/
