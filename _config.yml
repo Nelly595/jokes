@@ -4,3 +4,7 @@ author: <Nelly>
 
 show_downloads: true
 
+Site navigation
+navigation_header:
+  Home: /
+  Blog: /blog/
