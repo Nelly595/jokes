@@ -1,4 +1,3 @@
-## [Blog](/blog.md/)
-
+## [Blog](/blog.md/)    ## [About](/about.md/)
 jokes
 
