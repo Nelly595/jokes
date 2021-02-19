@@ -1,7 +1,8 @@
-header_pages:
-  - ## [Home](/index.md/)
-  - ## [Blog](/blog.md/)
-  - ## [About](/about.md/) 
+# 9. Site navigation 
+navigation_header:
+  [Home](/index.md/)
+  [Blog](/blog.md/)
+  [About](/about.md/) 
 
 title: [My Jokes]
 theme: jekyll-theme-cayman 
