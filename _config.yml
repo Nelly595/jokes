@@ -1,6 +1,8 @@
 header_pages:
-  - home/index.md
-  - categories.md
+  - ## [Home](/index.md/)
+  - ## [Blog](/blog.md/)
+  - ## [About](/about.md/) 
+
 title: [My Jokes]
 theme: jekyll-theme-cayman 
 author: <Nelly> 
