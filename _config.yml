@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman 
 title: My Website
 description: my first ever website
+github:
+  is_project_page: false
