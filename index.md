@@ -1,9 +1,5 @@
----
-title: This will be my first story ever 
-feature_text: |
- ## The Daily Blog  
- --- 
- 
-Once upon a time a man decided to make a website. 
+## My first story 
+
+Once upon a time a man decided to make a website but was a bit stuck and needed help.
  
  
