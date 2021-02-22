@@ -3,7 +3,7 @@
 Once upon a time a man decided to make a website but was a bit stuck and needed help. ![](uploads/pic 1.jpg) 
 
 
-<pre><a href="https://github.com/pages-themes/cayman/blob/master/assets/css/style.scss"></a></pre> 
+<code <a href="https://github.com/pages-themes/cayman/blob/master/assets/css/style.scss"></a> <code
 
  
  
