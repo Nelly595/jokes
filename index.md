@@ -1,4 +1,4 @@
-[Home](index.md) | [Contact](Contact.md) | [About (about.md)
+[Home](index.md) | [Contact](Contact.md) | [About](about.md)
 
 ## My first story 
 
