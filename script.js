@@ -1,19 +1,17 @@
-// Replace with your real data (fetch from server or export .json file)
-const messageData = [
-  { username: 'User1', messages: 120 },
-  { username: 'User2', messages: 95 },
-  { username: 'User3', messages: 80 }
-];
+async function loadChartData() {
+  try {
+    const response = await fetch('data.json');
+    const data = await response.json();
 
-const voiceData = [
-  { username: 'User1', minutes: 45 },
-  { username: 'User4', minutes: 30 },
-  { username: 'User2', minutes: 15 }
-];
+    createMessageChart(data.messages);
+    createVoiceChart(data.voice);
+  } catch (error) {
+    console.error('Failed to load chart data:', error);
+  }
+}
 
-const messageChart = new Chart(
-  document.getElementById('messageChart'),
-  {
+function createMessageChart(messageData) {
+  new Chart(document.getElementById('messageChart'), {
     type: 'bar',
     data: {
       labels: messageData.map(user => user.username),
@@ -27,12 +25,11 @@ const messageChart = new Chart(
       responsive: true,
       plugins: { legend: { display: false } }
     }
-  }
-);
+  });
+}
 
-const voiceChart = new Chart(
-  document.getElementById('voiceChart'),
-  {
+function createVoiceChart(voiceData) {
+  new Chart(document.getElementById('voiceChart'), {
     type: 'bar',
     data: {
       labels: voiceData.map(user => user.username),
@@ -46,5 +43,8 @@ const voiceChart = new Chart(
       responsive: true,
       plugins: { legend: { display: false } }
     }
-  }
-);
+  });
+}
+
+// Kick it off
+loadChartData();
