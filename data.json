@@ -1,0 +1,12 @@
+{
+  "messages": [
+    { "username": "User1", "messages": 120 },
+    { "username": "User2", "messages": 95 },
+    { "username": "User3", "messages": 80 }
+  ],
+  "voice": [
+    { "username": "User1", "minutes": 45 },
+    { "username": "User4", "minutes": 30 },
+    { "username": "User2", "minutes": 15 }
+  ]
+}
